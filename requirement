@@ -1,0 +1,51 @@
+# TaskFlow Pro — TypeScript Full-Stack Project
+
+## 📌 Overview
+**TaskFlow Pro** is a full-stack TypeScript web application featuring:
+- Secure **Login Authentication**
+- A clean **Dashboard** to display user stats
+- A simple **Task Management** module for creating, viewing, updating, and deleting tasks.
+
+This project is ideal for demonstrating **full-stack development skills** using TypeScript on both the frontend and backend.
+
+---
+
+## ✨ Features
+### 1. Authentication
+- Secure login with email & password
+- JWT-based authentication
+- Password hashing with bcrypt
+- Protected routes
+
+### 2. Dashboard
+- Displays user-specific statistics:
+  - Total Tasks Created
+  - Tasks Completed
+  - Recent Activity
+- Sidebar navigation
+
+### 3. Task Management
+- **Create Task:** Title, Description, Due Date, Status
+- **View Tasks:** All tasks for logged-in user
+- **Update Task:** Edit title, description, and status
+- **Delete Task:** Remove task from the list
+
+---
+
+## 🛠️ Tech Stack
+**Frontend:**
+- TypeScript
+- React (Vite or Next.js)
+- Tailwind CSS / CSS Modules
+- Axios
+
+**Backend:**
+- TypeScript
+- Node.js with Express.js
+- MongoDB / PostgreSQL
+- JWT for authentication
+- bcrypt for password hashing
+
+---
+
+## 📂 Project Structure
